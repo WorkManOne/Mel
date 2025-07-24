@@ -64,7 +64,7 @@ struct HomeView: View {
                     }
                 }
                 .padding(.horizontal, 20)
-                .padding(.bottom, 120)
+                .padding(.bottom, 160)
                 .padding(.bottom, getSafeAreaBottom())
             }
         }

@@ -55,7 +55,7 @@ struct EditMatchView: View {
                 }
                 .padding(.bottom, 40)
             }
-            .padding(.bottom, getSafeAreaBottom())
+            .padding(.bottom, 20)
             Button {
                 if isEditing {
                     if let index = userService.matches.firstIndex(where: { $0.id == match.id }) {
